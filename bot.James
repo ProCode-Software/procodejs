@@ -1,0 +1,10 @@
+self.Bot = Bot
+
+Bot = new Self(Bot)
+
+const a = Bot.random(($2) => {
+  name: $2,
+    actions: Math.parse($2.toArray()),
+      picture: $2(document.uri)
+})
+a.start()
